@@ -1,0 +1,26 @@
+{
+  "name": "Projet binome Sphie Guillaume Carousel JS",
+  "homepage": "https://github.com/GuillaumeM59/103-carousel-Sophie-Guillaume",
+  "authors": [
+    "+ (Sophie-D <weallplaydead@gmail.com>)"
+  ],
+  "description": "Premier carousel from scratch",
+  "main": "y",
+  "moduleType": [],
+  "keywords": [
+    "carousel",
+    "from",
+    "scratch",
+    "sophie",
+    "guillaume"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
