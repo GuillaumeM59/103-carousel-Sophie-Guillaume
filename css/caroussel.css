@@ -13,7 +13,7 @@
      }
 
    img {
-     width: auto;
+     max-width: 100%;
      max-height: 400px;
      margin: auto;
    }
@@ -21,6 +21,19 @@
      background-color: none !important;
      background-image: none !important;
    }
+
+  .navBTN {
+    opacity: 0.3;
+  }
+  .navBTN:hover {
+    opacity: 1;
+  }
+
+  .playPause {
+    position: absolute;;
+    bottom: 10px;
+    left: 48%
+  }
 
    .arrowright {
      text-align: right;
@@ -47,4 +60,10 @@
      background-position: center;
      background-size: contain;
 
+     }
+
+     @media all and (device-width:768px) {
+       #slideshow {
+          width: 100%;
+         }
      }
